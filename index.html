@@ -15,12 +15,12 @@
       dodger.style.backgroundColor='#FF69B4'
       document.addEventListener('keydown', function moveDodgerLeft()){
         var leftNumbers = dodger.style.left.replace('px', '')
-  var left = parseInt(leftNumbers, 10)
+        var left = parseInt(leftNumbers, 10)
  
-  if (left > 0) {
-    dodger.style.left = `${left - 1}px`
-  }
-}
+        if (left > 0) {
+           dodger.style.left = `${left - 1}px`
+          }
+      }
       }
       documet.addEventListener('keydown', function(e){
         if (e.which===37)
